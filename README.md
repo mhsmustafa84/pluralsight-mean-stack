@@ -1,1 +1,1 @@
-# pluralsight-mean-stack
+# Pluralsight Mean-stack
