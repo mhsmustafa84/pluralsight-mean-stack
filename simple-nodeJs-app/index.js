@@ -9,6 +9,7 @@ const routes = {
 const getH1 = text => {
     return `<h1 style='text-align:center;margin-top:100px'>${text}</h1>`;
 };
+
 const server = http.createServer(({ url }, res) => {
     let route = null;
     if (url !== '/favicon.ico') {
@@ -24,7 +25,7 @@ const server = http.createServer(({ url }, res) => {
     }
 });
 
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 server.listen(PORT, () => {
     console.log('Server is running on port ' + PORT);
 });
