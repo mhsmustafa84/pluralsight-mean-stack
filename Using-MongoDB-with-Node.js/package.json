@@ -1,0 +1,17 @@
+{
+	"name": "using-mongodb-with-nodejs",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"dev": "nodemon index.js",
+		"start": "node index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"mongodb": "^4.5.0"
+	}
+}
